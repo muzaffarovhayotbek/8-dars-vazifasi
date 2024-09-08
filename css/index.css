@@ -111,9 +111,9 @@
   width: 670px;
   height: 455px;
   background-color: #0b7572;
-  clip-path: polygon(0 0, 69% 0, 100% 100%, 0% 100%);
+clip-path: polygon(0 0, 45% 0, 100% 100%, 0% 100%);
   font-family: "Exo 2";
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 600;
   line-height: 60px;
   text-align: left;
@@ -320,7 +320,9 @@
     background-image: none;
   }
 
-  .mask-title {
+  .mask-title  {
+    margin-bottom: -200px;
+    margin-top: -250px;
     background-color: unset;
     color: #000000;
   }
